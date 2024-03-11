@@ -16,7 +16,7 @@ services:
     image: mysql:8.3
     restart: always
     env_file:
-      - /.env_bd
+      - ./.env_bd
     volumes:
       - ./bd/backup:/docker-entrypoint-initdb.d
       - datos:/var/lib/mysql
