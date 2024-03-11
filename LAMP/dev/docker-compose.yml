@@ -2,12 +2,15 @@ version: "3"
 services:
   web:
     build: ../apache
+    env_file:
+      - ../.env
     ports:
       - 80:80
       - 443:443
     volumes:
-      - ./app:/app
-      - ./apache/exemplo.lan.conf:/etc/apache2/sites-enabled/exemplo.lan.conf
+      - ../app:/app
+      - ../apache/exemplo.lan.conf:/etc/apache2/sites-enabled/exemplo.lan.conf
+      - ../apache/certificados:/certificados
 
   db:
     image: mysql:8.3
