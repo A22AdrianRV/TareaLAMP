@@ -1,0 +1,29 @@
+version: "3"
+services:
+  web:
+    build: ../apache
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./app:/app
+      - ./apache/exemplo.lan.conf:/etc/apache2/sites-enabled/exemplo.lan.conf
+
+  db:
+    image: mysql:8.3
+    restart: always
+    env_file:
+      - /.env_bd
+    volumes:
+      - ./bd/backup:/docker-entrypoint-initdb.d
+      - datos:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
+volumes:
+  datos:
