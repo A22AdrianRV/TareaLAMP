@@ -4,14 +4,13 @@ RUN apt-get update && apt-get install -y apache2 libapache2-mod-php8.2
 
 RUN ln -sf /dev/stderr /var/log/apache2/error.log
 
-RUN apt install -y php8.2-mysql php-xml php-gd  php-json php-curl php-mbstring php8.2-zip
+RUN apt install -y php8.2-mysql php-xml php-gd  php-json php-curl php-mbstring php8.2-zip php8.2-intl
 
 EXPOSE 80
 EXPOSE 443
 
 RUN a2enmod ssl 
 RUN a2enmod rewrite
-RUN echo "extension=php_zip.dll" >> /etc/php/8.2/cli/php.ini
 
 WORKDIR /app
 
