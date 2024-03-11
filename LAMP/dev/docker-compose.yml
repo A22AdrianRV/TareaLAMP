@@ -11,7 +11,6 @@ services:
       - ../../app:/app
       - ../apache/exemplo.lan.conf:/etc/apache2/sites-enabled/exemplo.lan.conf
       - ../apache/certificados:/certificados
-      - ../apache/php.ini:/etc/php/8.2/apache2/php.ini
 
   db:
     image: mysql:8.3
