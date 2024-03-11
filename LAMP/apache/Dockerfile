@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y apache2 libapache2-mod-php8.2
 
 RUN ln -sf /dev/stderr /var/log/apache2/error.log
 
-RUN apt install -y php8.2-mysql php-xml php-gd  php-json php-curl php-mbstring
+RUN apt install -y php8.2-mysql php-xml php-gd  php-json php-curl php-mbstring php8.2-zip
 
 EXPOSE 80
 EXPOSE 443
