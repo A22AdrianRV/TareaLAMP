@@ -11,6 +11,7 @@ EXPOSE 443
 
 RUN a2enmod ssl 
 RUN a2enmod rewrite
+RUN echo "php_zip.dll=on" >> /etc/php/8.2/apache2/php.ini
 
 WORKDIR /app
 
