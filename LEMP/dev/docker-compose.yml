@@ -8,13 +8,13 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - ../../app_dev:/app
+      - ../../NginxApp_dev:/app
       - ../nginx/certificados:/certificados
       - ../nginx/exemplo.lan.conf:/etc/nginx/templates/exemplo.lan.conf.template
   php:
     build: ../php
     volumes:
-      - ../../app_dev:/app
+      - ../../NginxApp_dev:/app
       - ../php/www.conf:/etc/php/8.2/fpm/pool.d/www.conf
 
   db:
