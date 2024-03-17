@@ -12,7 +12,7 @@ services:
   php:
     build: ../php
     volumes:
-      - ../../app:/app
+      - ../../app_dev:/app
       - ../php/www.conf:/etc/php/8.2/fpm/pool.d/www.conf
 
   db:
