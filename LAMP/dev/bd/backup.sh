@@ -1,1 +1,1 @@
-docker compose exec basededatos bash -c "mysqldump -u user -p minhabd" > bd/backup/backup.sql
+docker compose exec basededatos bash -c "mysqldump -u user -p prestashop" > bd/backup/backup.sql
