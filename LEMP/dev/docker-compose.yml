@@ -1,0 +1,28 @@
+version: "3"
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./app:/app
+      - ../nginx/certificados:/certificados
+      - ../nginx/exemplo.lan.conf:/etc/nginx/conf.d/exemplo.lan.conf
+  php:
+    build: ../php
+    volumes:
+      - ../../app:/app
+
+  db:
+    image: mysql:8.3
+    ports:
+      - 3306:3306
+    restart: always
+    env_file:
+      - ./.env_bd
+    volumes:
+      - ./bd/backup:/docker-entrypoint-initdb.d
+      - datos:/var/lib/mysql
+volumes:
+  datos:

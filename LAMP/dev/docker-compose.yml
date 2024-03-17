@@ -8,12 +8,14 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - ../../app:/app
+      - ../../app_dev:/app
       - ../apache/exemplo.lan.conf:/etc/apache2/sites-enabled/exemplo.lan.conf
       - ../apache/certificados:/certificados
 
   db:
     image: mysql:8.3
+    ports:
+      - 3306:3306
     restart: always
     env_file:
       - ./.env_bd
