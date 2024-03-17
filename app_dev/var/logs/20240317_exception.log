@@ -2,3 +2,7 @@
 *ERROR* 	v8.1.4	2024/03/17 - 16:59:22: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop.ps_shop_url&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
 *ERROR* 	v8.1.4	2024/03/17 - 17:05:13: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop.ps_shop_url&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
 *ERROR* 	v8.1.4	2024/03/17 - 17:05:13: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop.ps_shop_url&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.4	2024/03/17 - 18:42:03: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop.ps_shop&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.4	2024/03/17 - 18:42:09: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop.ps_shop&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.4	2024/03/17 - 18:42:19: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop.ps_shop&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.4	2024/03/17 - 18:42:21: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop.ps_shop&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
