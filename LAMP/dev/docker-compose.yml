@@ -18,7 +18,7 @@ services:
       - 3306:3306
     restart: always
     env_file:
-      - ./.env_bd
+      - .env_bd
     volumes:
       - ./bd/backup:/docker-entrypoint-initdb.d
       - datos:/var/lib/mysql
