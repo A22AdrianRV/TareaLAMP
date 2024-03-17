@@ -11,4 +11,4 @@ EXPOSE 443
 
 WORKDIR /app
 
-ENTRYPOINT [ "php8.2-fpm", "-F"]
+ENTRYPOINT [ "php-fpm8.2", "-F"]
