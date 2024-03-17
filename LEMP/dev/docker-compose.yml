@@ -8,12 +8,12 @@ services:
     volumes:
       - ./app:/app
       - ../nginx/certificados:/certificados
-      - ../nginx/exemplo.lan.conf:/etc/nginx/conf.d/exemplo.lan.conf
+      - ../nginx/exemplo.lan.conf:/etc/nginx/templates/exemplo.lan.conf.template
   php:
     build: ../php
     volumes:
       - ../../app:/app
-      # - ./php/www.conf:/etc/php/8.2/fpm/pool.d/www.conf
+      - ../php/www.conf:/etc/php/8.2/fpm/pool.d/www.conf
 
   db:
     image: mysql:8.3
