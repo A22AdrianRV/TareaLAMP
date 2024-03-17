@@ -17,11 +17,8 @@ services:
     ports:
       - 3306:3306
     restart: always
-    environment:
-      - MYSQL_ROOT_PASSWORD:abc123.
-      - MYSQL_USER:user
-      - MYSQL_PASSWORD:user
-      - MYSQL_DATABASE:prestashop
+    env_file:
+      - ./.env_bd
     volumes:
       - ./bd/backup:/docker-entrypoint-initdb.d
       - datos:/var/lib/mysql
