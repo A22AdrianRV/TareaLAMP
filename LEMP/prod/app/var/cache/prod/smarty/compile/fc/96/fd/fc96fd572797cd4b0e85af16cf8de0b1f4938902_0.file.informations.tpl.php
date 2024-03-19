@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:37:55
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:36
   from '/app/admin/themes/default/template/controllers/cart_rules/informations.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7a3df30c9_59567172',
+  'unifunc' => 'content_65fa0474d1d7e6_85037628',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7a3df30c9_59567172 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa0474d1d7e6_85037628 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 ?>
 <div class="form-group">

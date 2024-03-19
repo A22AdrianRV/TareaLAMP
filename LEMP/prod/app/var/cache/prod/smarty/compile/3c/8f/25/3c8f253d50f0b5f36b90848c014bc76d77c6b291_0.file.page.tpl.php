@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:01
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:39
   from '/app/admin/themes/default/template/controllers/modules/page.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7a9af4ed5_85606754',
+  'unifunc' => 'content_65fa0477a6c597_33327303',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:controllers/modules/list.tpl' => 1,
   ),
 ),false)) {
-function content_65f9f7a9af4ed5_85606754 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa0477a6c597_33327303 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 echo $_smarty_tpl->tpl_vars['kpis']->value;?>
 

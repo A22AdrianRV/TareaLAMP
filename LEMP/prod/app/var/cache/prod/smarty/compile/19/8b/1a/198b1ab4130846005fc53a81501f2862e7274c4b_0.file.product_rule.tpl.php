@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:37:56
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:36
   from '/app/admin/themes/default/template/controllers/cart_rules/product_rule.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7a40b1fa8_01122291',
+  'unifunc' => 'content_65fa0474df21e6_09526204',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7a40b1fa8_01122291 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa0474df21e6_09526204 (Smarty_Internal_Template $_smarty_tpl) {
 ?> <tr id="product_rule_<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'intval' ][ 0 ], array( $_smarty_tpl->tpl_vars['product_rule_group_id']->value ));?>
 _<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'intval' ][ 0 ], array( $_smarty_tpl->tpl_vars['product_rule_id']->value ));?>
 _tr">

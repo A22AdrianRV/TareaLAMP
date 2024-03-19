@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:37:56
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:37
   from '/app/admin/themes/default/template/controllers/cart_rules/product_rule_itemlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7a44fa315_94169703',
+  'unifunc' => 'content_65fa047506ee82_28722493',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7a44fa315_94169703 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa047506ee82_28722493 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="col-lg-12 bootstrap">
 	<div class="col-lg-6">
 		<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Unselected','d'=>'Admin.Global'),$_smarty_tpl ) );?>

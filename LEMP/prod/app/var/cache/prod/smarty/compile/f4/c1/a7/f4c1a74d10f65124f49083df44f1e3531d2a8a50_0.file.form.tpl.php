@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:05
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:41
   from '/app/admin/themes/default/template/controllers/shop_group/helpers/form/form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7ad443bd3_27898459',
+  'unifunc' => 'content_65fa0479378866_86345169',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,25 +20,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7ad443bd3_27898459 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa0479378866_86345169 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_160166059965f9f7ad443494_61904937', 'script');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_23573145265fa0479378093_29349994', 'script');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "helpers/form/form.tpl");
 }
 /* {block 'script'} */
-class Block_160166059965f9f7ad443494_61904937 extends Smarty_Internal_Block
+class Block_23573145265fa0479378093_29349994 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'script' => 
   array (
-    0 => 'Block_160166059965f9f7ad443494_61904937',
+    0 => 'Block_23573145265fa0479378093_29349994',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

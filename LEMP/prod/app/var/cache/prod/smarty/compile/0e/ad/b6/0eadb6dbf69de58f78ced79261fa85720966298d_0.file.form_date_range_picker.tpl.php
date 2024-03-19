@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:09
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:43
   from '/app/admin/themes/default/template/form_date_range_picker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7b111c643_52476902',
+  'unifunc' => 'content_65fa047b03a794_92216852',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7b111c643_52476902 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa047b03a794_92216852 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="calendar" class="panel">
 	<form action="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['action']->value ));?>
 " method="post" id="calendar_form" name="calendar_form" class="form-inline">

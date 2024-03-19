@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:13
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:45
   from '/app/admin/themes/default/template/helpers/required_fields.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7b56a7e10_41516657',
+  'unifunc' => 'content_65fa047d20d585_69739969',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7b56a7e10_41516657 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa047d20d585_69739969 (Smarty_Internal_Template $_smarty_tpl) {
 ?><a class="btn btn-default" href="#" onclick="if ($('.requiredFieldsParameters:visible').length == 0) $('.requiredFieldsParameters').slideDown('slow'); else $('.requiredFieldsParameters').slideUp('slow'); return false;">
 	<i class="icon-plus-sign"></i> <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Set required fields for this section'),$_smarty_tpl ) );?>
 

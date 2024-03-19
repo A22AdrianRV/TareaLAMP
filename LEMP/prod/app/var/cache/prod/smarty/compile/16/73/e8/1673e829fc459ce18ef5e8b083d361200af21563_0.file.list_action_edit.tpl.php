@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:07
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:42
   from '/app/admin/themes/default/template/controllers/tax_rules/helpers/list/list_action_edit.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7afd0b400_92781832',
+  'unifunc' => 'content_65fa047a3cead2_96221790',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7afd0b400_92781832 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa047a3cead2_96221790 (Smarty_Internal_Template $_smarty_tpl) {
 ?><a onclick="loadTaxRule('<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['id']->value,'html','UTF-8' ));?>
 '); return false;" href="#" class="btn btn-default">
 	<i class="icon-pencil"></i>

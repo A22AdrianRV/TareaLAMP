@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:00
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:39
   from '/app/admin/themes/default/template/controllers/marketing/helpers/view/view.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7a84c7017_76498292',
+  'unifunc' => 'content_65fa0477088ab2_87838144',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7a84c7017_76498292 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa0477088ab2_87838144 (Smarty_Internal_Template $_smarty_tpl) {
 echo $_smarty_tpl->tpl_vars['modules_list']->value;?>
 
 <?php }

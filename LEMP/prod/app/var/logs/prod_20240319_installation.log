@@ -36,3 +36,13 @@ Stack trace:
 #8 /app/install/classes/controllerHttp.php(277): InstallControllerHttpProcess->process()
 #9 /app/install/index.php(53): InstallControllerHttp::execute()
 #10 {main}
+*ERROR* 	v8.1.4	2024/03/19 - 22:36:53: "An exception occurred while executing 'INSERT INTO `ps_link_block_shop` (`id_link_block`, `id_shop`, `position`) VALUES\n                (1, 1, 0),\n                (2, 1, 1);':\n\nSQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-1' for key 'PRIMARY'"
+*ERROR* 	v8.1.4	2024/03/19 - 22:36:53: PrestaShop\PrestaShop\Core\Domain\Theme\Exception\FailedToEnableThemeModuleException: "An exception occurred while executing 'INSERT INTO `ps_link_block_shop` (`id_link_block`, `id_shop`, `position`) VALUES\n                (1, 1, 0),\n                (2, 1, 1);':\n\nSQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-1' for key 'PRIMARY'" in /app/src/Core/Addon/Theme/ThemeManager.php:398
+Stack trace:
+#0 /app/src/Core/Addon/Theme/ThemeManager.php(255): PrestaShop\PrestaShop\Core\Addon\Theme\ThemeManager->doEnableModules()
+#1 /app/src/PrestaShopBundle/Install/Install.php(1178): PrestaShop\PrestaShop\Core\Addon\Theme\ThemeManager->enable()
+#2 /app/install/controllers/http/process.php(294): PrestaShopBundle\Install\Install->installTheme()
+#3 /app/install/controllers/http/process.php(104): InstallControllerHttpProcess->processInstallTheme()
+#4 /app/install/classes/controllerHttp.php(277): InstallControllerHttpProcess->process()
+#5 /app/install/index.php(53): InstallControllerHttp::execute()
+#6 {main}

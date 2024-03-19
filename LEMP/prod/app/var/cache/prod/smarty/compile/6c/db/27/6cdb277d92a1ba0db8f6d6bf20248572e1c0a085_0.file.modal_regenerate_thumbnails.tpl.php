@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:37:59
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:38
   from '/app/admin/themes/default/template/controllers/images/modal_regenerate_thumbnails.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7a744aa19_07407423',
+  'unifunc' => 'content_65fa047692c2f6_73888248',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7a744aa19_07407423 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa047692c2f6_73888248 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="modal-body">
   <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Regenerate thumbnails for the selected images? With the \"erase\" option enabled, the previously selected thumbnails will be deleted.",'d'=>"Admin.Design.Notification"),$_smarty_tpl ) );?>
 

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:37:57
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:37
   from '/app/admin/themes/default/template/controllers/customer_threads/helpers/view/timeline_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7a5521ca9_05047132',
+  'unifunc' => 'content_65fa047592c7c7_80431952',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7a5521ca9_05047132 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa047592c7c7_80431952 (Smarty_Internal_Template $_smarty_tpl) {
 ?><article class="timeline-item<?php if ((isset($_smarty_tpl->tpl_vars['timeline_item']->value['alt']))) {?> alt<?php }?>">
 	<div class="timeline-caption">
 		<div class="timeline-panel arrow arrow-<?php echo $_smarty_tpl->tpl_vars['timeline_item']->value['arrow'];?>

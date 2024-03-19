@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:37:56
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:37
   from '/app/admin/themes/default/template/controllers/customer_threads/helpers/options/options.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7a4e3df08_52888706',
+  'unifunc' => 'content_65fa04755b8b97_44362091',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,24 +20,24 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7a4e3df08_52888706 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa04755b8b97_44362091 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_77705292065f9f7a4e3a212_96213072', "after");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_5527360065fa04755b7256_06757691', "after");
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "helpers/options/options.tpl");
 }
 /* {block "after"} */
-class Block_77705292065f9f7a4e3a212_96213072 extends Smarty_Internal_Block
+class Block_5527360065fa04755b7256_06757691 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'after' => 
   array (
-    0 => 'Block_77705292065f9f7a4e3a212_96213072',
+    0 => 'Block_5527360065fa04755b7256_06757691',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

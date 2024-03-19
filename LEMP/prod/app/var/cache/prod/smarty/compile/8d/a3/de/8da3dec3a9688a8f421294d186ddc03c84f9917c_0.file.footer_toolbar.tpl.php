@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:08
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:42
   from '/app/admin/themes/default/template/footer_toolbar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7b0f0fa24_80659918',
+  'unifunc' => 'content_65fa047ae734a5_71181241',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7b0f0fa24_80659918 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa047ae734a5_71181241 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 if ($_smarty_tpl->tpl_vars['show_toolbar']->value) {?>
@@ -206,7 +206,7 @@ _form').find('input').keypress(function (e) {
 			});
 			//submit the form
 			<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_190309579465f9f7b0f0e972_10841144', 'formSubmit');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_162124210465fa047ae71743_17143646', 'formSubmit');
 ?>
 
 		}
@@ -217,12 +217,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_190309579465f9f7b0
 <?php }
 }
 /* {block 'formSubmit'} */
-class Block_190309579465f9f7b0f0e972_10841144 extends Smarty_Internal_Block
+class Block_162124210465fa047ae71743_17143646 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'formSubmit' => 
   array (
-    0 => 'Block_190309579465f9f7b0f0e972_10841144',
+    0 => 'Block_162124210465fa047ae71743_17143646',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

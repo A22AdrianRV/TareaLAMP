@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:14
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:45
   from '/app/admin/themes/default/template/helpers/tree/tree_associated_header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7b643ea01_18717455',
+  'unifunc' => 'content_65fa047d689334_15972148',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7b643ea01_18717455 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa047d689334_15972148 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="tree-panel-heading-controls clearfix"><?php if ((isset($_smarty_tpl->tpl_vars['toolbar']->value))) {
 echo $_smarty_tpl->tpl_vars['toolbar']->value;
 }?></div>

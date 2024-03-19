@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:04
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:40
   from '/app/admin/themes/default/template/controllers/shop/helpers/list/list_action_delete.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7ac3a3c44_06756793',
+  'unifunc' => 'content_65fa0478cff417_46603125',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7ac3a3c44_06756793 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa0478cff417_46603125 (Smarty_Internal_Template $_smarty_tpl) {
 ?><a href="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['href']->value,'html','UTF-8' ));?>
 " class="delete" title="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['action']->value,'html','UTF-8' ));?>
 "

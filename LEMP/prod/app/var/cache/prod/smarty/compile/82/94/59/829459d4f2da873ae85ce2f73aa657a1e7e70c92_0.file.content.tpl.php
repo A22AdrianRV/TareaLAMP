@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:37:58
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:38
   from '/app/admin/themes/default/template/controllers/images/content.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7a6e2fb19_41039785',
+  'unifunc' => 'content_65fa04766361d8_89034414',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7a6e2fb19_41039785 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa04766361d8_89034414 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="alert alert-danger">
 	<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'By default, all images settings are already installed in your store. Do not delete them, you will need it!','d'=>'Admin.Design.Help'),$_smarty_tpl ) );?>

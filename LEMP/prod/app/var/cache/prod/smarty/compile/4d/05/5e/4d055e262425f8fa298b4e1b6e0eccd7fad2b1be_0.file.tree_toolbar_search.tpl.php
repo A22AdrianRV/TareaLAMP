@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:16
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:46
   from '/app/admin/themes/default/template/helpers/tree/tree_toolbar_search.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7b8507950_96568518',
+  'unifunc' => 'content_65fa047e343298_79065132',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7b8507950_96568518 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa047e343298_79065132 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- <label for="node-search"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>$_smarty_tpl->tpl_vars['label']->value),$_smarty_tpl ) );?>
 </label> -->

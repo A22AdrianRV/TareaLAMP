@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:04
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:41
   from '/app/admin/themes/default/template/controllers/shop/helpers/tree/shop_tree_node_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7ace7ee40_03029363',
+  'unifunc' => 'content_65fa04791b1e70_57410277',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7ace7ee40_03029363 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa04791b1e70_57410277 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <li class="tree-item">
 	<label class="tree-item-name">

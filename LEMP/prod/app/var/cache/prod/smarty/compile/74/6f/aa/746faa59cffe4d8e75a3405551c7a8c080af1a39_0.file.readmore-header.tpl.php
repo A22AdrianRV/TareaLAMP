@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:38:02
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:39
   from '/app/admin/themes/default/template/controllers/modules/readmore-header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7aa2a3685_74213684',
+  'unifunc' => 'content_65fa0477dfcd77_21166448',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7aa2a3685_74213684 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa0477dfcd77_21166448 (Smarty_Internal_Template $_smarty_tpl) {
 ?><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 <h3 class="modal-title">
 	<div class="module_name">

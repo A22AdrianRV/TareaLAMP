@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-19 20:37:57
+/* Smarty version 4.3.4, created on 2024-03-19 21:32:37
   from '/app/admin/themes/default/template/controllers/customer_threads/helpers/view/modal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65f9f7a535dc15_41986951',
+  'unifunc' => 'content_65fa0475855551_34712047',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f9f7a535dc15_41986951 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65fa0475855551_34712047 (Smarty_Internal_Template $_smarty_tpl) {
 ?><form action="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['link']->value->getAdminLink('AdminCustomerThreads',true,array(),array('id_customer_thread'=>call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'intval' ][ 0 ], array( $_smarty_tpl->tpl_vars['id_customer_thread']->value )),'viewcustomer_thread'=>1)),'html','UTF-8' ));?>
 " method="post" enctype="multipart/form-data" class="form-horizontal">
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
