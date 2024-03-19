@@ -8,3 +8,31 @@ Stack trace:
 #4 /app/install/classes/controllerHttp.php(277): InstallControllerHttpProcess->process()
 #5 /app/install/index.php(53): InstallControllerHttp::execute()
 #6 {main}
+*ERROR* 	v8.1.4	2024/03/19 - 21:43:43: PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'prestashop.ps_shop_group' doesn't exist in /app/classes/db/DbPDO.php:149
+Stack trace:
+#0 /app/classes/db/DbPDO.php(149): PDO->query()
+#1 /app/classes/db/Db.php(377): DbPDOCore->_query()
+#2 /app/classes/db/Db.php(744): DbCore->query()
+#3 /app/classes/db/Db.php(477): DbCore->q()
+#4 /app/classes/ObjectModel.php(622): DbCore->insert()
+#5 /app/src/PrestaShopBundle/Install/Install.php(553): ObjectModelCore->add()
+#6 /app/src/PrestaShopBundle/Install/Install.php(439): PrestaShopBundle\Install\Install->createShop()
+#7 /app/install/controllers/http/process.php(179): PrestaShopBundle\Install\Install->installDefaultData()
+#8 /app/install/controllers/http/process.php(94): InstallControllerHttpProcess->processInstallDefaultData()
+#9 /app/install/classes/controllerHttp.php(277): InstallControllerHttpProcess->process()
+#10 /app/install/index.php(53): InstallControllerHttp::execute()
+#11 {main}
+
+Next PrestaShopException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'prestashop.ps_shop_group' doesn't exist in /app/classes/db/DbPDO.php:151
+Stack trace:
+#0 /app/classes/db/Db.php(377): DbPDOCore->_query()
+#1 /app/classes/db/Db.php(744): DbCore->query()
+#2 /app/classes/db/Db.php(477): DbCore->q()
+#3 /app/classes/ObjectModel.php(622): DbCore->insert()
+#4 /app/src/PrestaShopBundle/Install/Install.php(553): ObjectModelCore->add()
+#5 /app/src/PrestaShopBundle/Install/Install.php(439): PrestaShopBundle\Install\Install->createShop()
+#6 /app/install/controllers/http/process.php(179): PrestaShopBundle\Install\Install->installDefaultData()
+#7 /app/install/controllers/http/process.php(94): InstallControllerHttpProcess->processInstallDefaultData()
+#8 /app/install/classes/controllerHttp.php(277): InstallControllerHttpProcess->process()
+#9 /app/install/index.php(53): InstallControllerHttp::execute()
+#10 {main}
