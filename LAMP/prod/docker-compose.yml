@@ -11,12 +11,5 @@ services:
       - ./app:/app
       - ../apache/exemplo.lan.conf:/etc/apache2/sites-enabled/exemplo.lan.conf
       - ../apache/certificados:/certificados
-  phpmyadmin:
-    image: phpmyadmin:latest
-    restart: always
-    ports:
-      - 8080:80
-    environment:
-      - PMA_ARBITRARY=1
 volumes:
   datos:
